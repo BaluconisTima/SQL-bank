@@ -1,0 +1,83 @@
+.root {
+    -fx-background-color: linear-gradient(#ececec, #dedede);
+    -fx-font-family: "Inter-Bold";
+}
+
+.button {
+    -fx-background-color: linear-gradient(#2d2d2d, #000000);
+    -fx-text-fill: #ffffff;
+    -fx-background-radius: 10;
+}
+.button:hover {
+    -fx-background-color: linear-gradient(#2d2d2d, #000000);
+    -fx-text-fill: #ffffff;
+    -fx-background-radius: 10;
+}
+.button:pressed {
+    -fx-background-color: linear-gradient(#505050, #2c2c2c);
+    -fx-text-fill: #ffffff;
+    -fx-background-radius: 10;
+}
+.text-field {
+    -fx-text-fill: #000000;
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 10;
+}
+.account-rectangle {
+    -fx-fill: linear-gradient(#d3d3d3, #c0c0c0);
+    -fx-stroke-type: inside;
+    -fx-stroke-width: 0;
+}
+
+.account-number-label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.balance-label {
+    -fx-font-size: 16px;
+}
+
+.complete-account-pane {
+    -fx-background-color: transparent;
+}
+.transaction-pane {
+    -fx-background-color: #f5f5f5;
+    -fx-background-radius: 10;
+    -fx-padding: 10;
+    -fx-effect: dropshadow(gaussian, #cbcbcb, 10, 0, 0, 0);
+}
+
+.transaction-pane:hover {
+    -fx-background-color: #c4c4c4;
+    -fx-cursor: hand;
+}
+
+.custom-scroll-pane {
+    -fx-background-color: transparent;
+    -fx-background: rgba(211, 211, 211, 0);
+    -fx-border-width: 0;
+    -fx-padding: 10;
+}
+
+.custom-scroll-pane .scroll-bar {
+    -fx-background-color: #f5f5f5;
+    -fx-background-radius: 10;
+    -fx-padding: 10;
+    -fx-effect: dropshadow(gaussian, #cbcbcb, 10, 0, 0, 0);
+}
+
+.custom-scroll-pane .scroll-bar:vertical {
+    -fx-padding: 10 0;
+}
+
+.custom-scroll-pane .scroll-bar:horizontal {
+    -fx-padding: 0 10;
+}
+.account-rectangle-hover {
+    -fx-fill: linear-gradient(#8a8a8a, #808080);
+    -fx-stroke-type: inside;
+    -fx-stroke-width: 0;
+}
+
+
